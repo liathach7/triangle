@@ -6,7 +6,7 @@ app.use(bodyParser.urlencoded({extended:true}))
 
 app.get('/', async (request, response) => {
 
-    response.sendFile(__dirname + '/home.html');
+    response.sendFile(__dirname + '/index');
 
 });
 
